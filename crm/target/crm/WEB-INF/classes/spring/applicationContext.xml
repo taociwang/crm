@@ -74,5 +74,5 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
     <!--扫描redisdao-->
    <!-- <context:component-scan base-package="com.hy.ssm.dao"></context:component-scan>-->
     <!--引入redis主配置-->
-
+    <import resource="classpath:spring/spring_shiro.xml"></import>
 </beans>
